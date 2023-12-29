@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="signupBody">
+    <div class="heading">
+      <h1>LOGIN</h1>
+      <!-- <img src="../assets/user.png" alt="LoginImg" height="34em" color="#fff"> -->
+    </div>
+    <form [formGroup]="formData" (submit)="onSubmit()">
+      <!-- <div class="Name">
+             <input type="text" name="name" placeholder="Name" formControlName="name" required  >
+             <span class="text-danger" *ngIf="!name?.valid && (name?.dirty || name?.touched)">
+                 <p *ngIf="name?.errors?.['required']"> Name is required</p>
+                 <p *ngIf="name?.errors?.['minlength']">Minimum character is 3</p>
+                 <p *ngIf="name?.errors?.['maxlength']">Maximum characher is 15 </p>
+                 <p *ngIf="name?.errors?.['pattern']">Only characters Allowed</p>
+             </span>
+         </div> -->
+      <div class="email">
+        <input
+          type="email"
+          name="Email"
+          placeholder="Email"
+          formControlName="email"
+          required
+          placeholder="abc@gmail.com"
+        />
+        <span
+          *ngIf="!email?.valid && (email?.touched || email?.dirty)"
+          class="text-danger"
+        >
+          <p *ngIf="email?.errors?.['required']">Email is required</p>
+          <p *ngIf="email?.errors?.['minlength']">Minimum length is 4</p>
+        </span>
+      </div>
+
+      <div class="password">
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          formControlName="password"
+          required
+        />
+        <span
+          *ngIf="!password?.valid && (password?.touched || password?.dirty)"
+          class="text-danger"
+        >
+          <p *ngIf="password?.errors?.['required']">Email is required</p>
+          <p *ngIf="password?.errors?.['minlength']">Minimum length is 4</p>
+        </span>
+      </div>
+      <div class="error">
+        <span class="text-danger" *ngIf="errormessage">
+          <p>{{ errormessage }}</p>
+        </span>
+      </div>
+      <div class="submit">
+        <button mat-raised-button [disabled]="!formData.valid">Login</button>
+      </div>
+      <div class="newUser">
+        <p>
+          New User?<span
+            ><button mat-raised-button routerLink="/signup" id="regbtn">
+              Register
+            </button></span
+          >
+        </p>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,58 @@
+
+mat-form-field{
+    width: 100%;
+} 
+.nodata{
+    text-align: center;
+    color: red;
+    padding: 3em 8em;
+}
+.editbtn{
+    color: green;
+}
+.carousel .carousel-item {
+    height: 600px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 600px;
+  }
+.sub-options{
+    color: #000;
+    margin:0 5em;
+}
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#ECFBFE;
+}
+
+button{
+    outline: unset;
+    border: unset;
+    background-color: unset;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2em 0;
+    padding: 0 2em;
+}
+
+button:focus-within {
+    border: none;
+    border-bottom: 3px solid #017D9C;
+    color: #017D9C;
+    font-weight: 500;
+    border-radius: 0px;
+}
