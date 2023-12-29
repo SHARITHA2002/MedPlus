@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "doctors": {
+    "firstName": "John",
+    "lastName": "r",
+    "email": "harrypotter@gmail.com",
+    "gender": "male",
+    "dob": "2001-01-31T18:30:00.000Z",
+    "qualify": "Under Graduate",
+    "specialization": "r",
+    "experience": 33
+  }
+}
