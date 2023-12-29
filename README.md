@@ -29,3 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Demo
 
 🤖 Please Check out: https://chimerical-sprinkles-f4cdba.netlify.app/
+
+🤖 Demo Credentials : 
+
+💌 Email : demo@gmail.com 
+ 
+🔑 Password: Demo@20023
