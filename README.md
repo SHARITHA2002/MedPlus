@@ -34,4 +34,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 💌 Email : demo@gmail.com 
  
-🔑 Password: Demo@20023
+🔑 Password: Demo@2023
